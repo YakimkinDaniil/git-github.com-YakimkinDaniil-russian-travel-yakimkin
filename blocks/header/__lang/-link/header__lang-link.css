@@ -1,0 +1,8 @@
+.header__lang-link {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}

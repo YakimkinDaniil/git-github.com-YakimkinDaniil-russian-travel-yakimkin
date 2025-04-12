@@ -1,0 +1,15 @@
+.cover__background {
+    width: 100%;
+    opacity: 0.8;
+}
+
+@media (max-width: 420px) {
+    .cover__background  {
+        width: 420px;
+        margin-left: -20px;
+    }
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}

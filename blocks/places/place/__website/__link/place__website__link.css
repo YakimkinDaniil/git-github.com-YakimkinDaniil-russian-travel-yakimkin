@@ -1,0 +1,17 @@
+.place__website__link {
+    color: rgba(255, 255, 255, 1);
+    width: 456px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 420px) {
+    .place__website__link  {
+        margin-left: 26px;
+    }
+}

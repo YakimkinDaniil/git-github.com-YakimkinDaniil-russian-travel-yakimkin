@@ -1,0 +1,28 @@
+.place__image {
+    width: 460px;
+    height: 460px;
+    margin-top: 48px;
+    margin-right: 40px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 420px) {
+    .place__image  {
+        width: 424px;
+        margin-left: 20px;
+    }
+}

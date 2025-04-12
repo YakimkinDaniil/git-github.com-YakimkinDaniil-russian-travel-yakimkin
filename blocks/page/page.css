@@ -1,0 +1,37 @@
+.page {
+    background-color: #2a2a2a;
+    max-width: 1280px;
+    overflow-x: hidden;
+}
+  
+  @media (max-width: 1280px) and (min-width: 1024px) {
+    .page {
+      width: 1280px;
+      background-color: #2a2a2a;
+      margin: -8px;
+    }
+  }
+  
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .page {
+      width: 1024px;
+      background-color: #2a2a2a;
+      margin: -8px;
+    }
+}
+  
+  @media (max-width: 768px) and (min-width: 420px) {
+    .page {
+      width: 768px;
+      background-color: #2a2a2a;
+      margin: -8px;
+    }
+}
+  
+@media (max-width: 420px) {
+    .page {
+      width: 100%;
+      background-color: #2a2a2a;
+      padding-left: 16px;
+    }
+  }

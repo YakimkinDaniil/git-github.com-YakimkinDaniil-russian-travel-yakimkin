@@ -1,0 +1,36 @@
+.place {
+    margin-left: 148px;
+    margin-right: 148px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .place {
+        margin-left: 48px;
+        margin-right: 48px;
+        margin-bottom: auto;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+    .place {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 172px;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 420px) {
+    .place  {
+        margin-right: 0px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        
+    }
+}

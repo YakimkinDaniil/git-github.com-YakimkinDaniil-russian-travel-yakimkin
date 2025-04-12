@@ -1,0 +1,18 @@
+.cover {
+    margin-top: 92px;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+@media (max-width: 768px) and (min-width: 420px) {
+    .cover {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 420px) {
+    .cover  {
+        margin-top: 66px;
+    }
+}
