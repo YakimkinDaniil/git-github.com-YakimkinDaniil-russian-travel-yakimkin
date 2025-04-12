@@ -26,11 +26,12 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 420px) and (min-width: 320px) {
     .place  {
         margin-right: 0px;
         margin-bottom: 50px;
         flex-direction: column;
-        
+        margin-left: 0px;
+        margin-right: 0px;    
     }
 }

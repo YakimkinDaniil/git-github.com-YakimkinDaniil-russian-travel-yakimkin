@@ -9,7 +9,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 420px) and (min-width: 320px) {
     .places  {
         margin-top: 64px;
     }

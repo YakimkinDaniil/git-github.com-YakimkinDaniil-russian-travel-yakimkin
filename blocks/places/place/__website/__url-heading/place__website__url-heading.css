@@ -10,7 +10,7 @@
     color: #AAAAAA;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 420px) and (min-width: 320px) {
     .place__website__url-heading  {
         margin-left: 26px;
     }
